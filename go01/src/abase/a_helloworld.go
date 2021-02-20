@@ -4,8 +4,7 @@ import "fmt"
 
 /**
 需要将package定义为main，才能运行
- */
-func main()  {
+*/
+func main() {
 	fmt.Printf("hello world")
 }
-
