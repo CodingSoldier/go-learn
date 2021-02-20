@@ -36,8 +36,6 @@ import "fmt"
 //	fmt.Println(c)
 //}
 
-
-
 //// 常量当然可以定义为在包内部
 //const filename = "abc.txt"
 //
@@ -57,9 +55,8 @@ import "fmt"
 //	fmt.Println(filename)
 //}
 
-
 //定义枚举类型
-func enums(){
+func enums() {
 
 	//const (
 	//	cpp = 0
@@ -68,7 +65,6 @@ func enums(){
 	//	javascript = 3
 	//)
 	//fmt.Println(cpp, java, python, javascript)
-
 
 	//使用iota迭代自增
 	//const (
@@ -88,12 +84,8 @@ func enums(){
 	)
 	fmt.Println(cpp, python, javascript)
 
-
-
 }
 
-func main(){
+func main() {
 	enums()
 }
-
-

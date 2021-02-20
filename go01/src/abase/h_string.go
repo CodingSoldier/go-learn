@@ -42,4 +42,14 @@ func main() {
 	//	fmt.Printf("(%d, %c)", i, ch)
 	//}
 
+	/**
+	运行配置
+		Run kind：File
+		Run after build
+	*/
+	str := `sfadf
+		"带双引号"
+122334`
+	fmt.Println(str)
+
 }

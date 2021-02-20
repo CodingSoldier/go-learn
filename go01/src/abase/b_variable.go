@@ -37,11 +37,9 @@ import "fmt"
 //
 //}
 
-
-
 /**
 在函数外定义变量是包内变量，不是全局变量
- */
+*/
 var a = 3
 var b = true
 var s = "ssss"
@@ -54,14 +52,13 @@ var (
 	bb = true
 )
 
-func main()  {
+func main() {
 	variableZeroValue()
 }
 
-func variableZeroValue(){
+func variableZeroValue() {
 
 	fmt.Println(a, b, s)
 	fmt.Println(aa, bb)
 
 }
-
