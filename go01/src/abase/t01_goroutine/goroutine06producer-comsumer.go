@@ -22,6 +22,11 @@ func consumer(index int) {
 
 func main() {
 
+
+
+
+
+
 	// 生产者与消费者相同
 	//for i := 0; i < 5; i++ {
 	//	go producer(i)
