@@ -28,6 +28,7 @@ go mod init 工程名  // 初始化工程
 		在module02目录下执行 go mod init module02
 		便会生成go.mod文件
 		go.sum是对go.mod的补充
+		go.mod、go.sum都要放到代码仓库
 
 2、mudule项目会生成一个go.mod文件。go.mod配置了module的名称
 3、E:\go-learn\module01> 目录下执行 go get github.com/hashicorp/golang-lru 下载依赖
