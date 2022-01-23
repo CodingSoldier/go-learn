@@ -1,9 +1,14 @@
 package main
 
 import (
-	"abase/j01_interface/httpimpl"
 	"fmt"
+	"go01/src/j01_interface/httpimpl"
 )
+
+/**
+goland -> open -> go01
+导入依赖 go01/src/j01_interface/httpimpl
+*/
 
 /**
 定义接口
@@ -41,9 +46,9 @@ duck typing 鸭子类型
 */
 func main() {
 
-	//r := Implement01{"伪造一个网页内容"}
-	//str := downloadBaidu(r)
-	//fmt.Println(str)
+	r := Implement01{"伪造一个网页内容"}
+	str := downloadBaidu(r)
+	fmt.Println(str)
 
 	//r2 := httpimpl.HttpClient{}
 	//// downloadBaidu参数是值类型，也可以传指针
