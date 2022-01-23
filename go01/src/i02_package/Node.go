@@ -4,7 +4,7 @@ import "fmt"
 
 /**
 
-需要设置项目的路径
+需要设置项目的路径，貌似不需要
 setting -> Languages & Frameworks -> Go -> GOPATH -> Project GOPATH -> go01
 
 为结构定义的方法必须在同一个包内，方法可以在同一个包内的不同文件中

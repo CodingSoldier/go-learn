@@ -1,9 +1,9 @@
 package main
 
-import "abase/i02_package"
+import "go01/src/i02_package"
 
 /**
-entry.go作为程序入口，包名是main，包含以main方法
+entry.go作为程序入口，包名是main，包含main方法
 */
 func main() {
 

@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"math"
 	"reflect"
 	"runtime"
 )
@@ -78,11 +79,11 @@ func main() {
 	//	fmt.Println(i)
 	//}
 
-	//// 函数参数也是函数
-	//r := apply(func(a float64, b float64) float64 {
-	//	return math.Pow(a, b)
-	//}, 3, 4)
-	//fmt.Println(r)
+	// 函数参数也是函数
+	r := apply(func(a float64, b float64) float64 {
+		return math.Pow(a, b)
+	}, 3, 4)
+	fmt.Println(r)
 
 	// 可变参数
 	//i := sum(1, 2, 3, 4, 5)
