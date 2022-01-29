@@ -1,4 +1,4 @@
-module go-learn
+module send-log
 
 go 1.17
 
