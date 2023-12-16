@@ -1,0 +1,4 @@
+github.com/CodingSoldier/go-develop-redis-lib v1.0.3 h1:nLqvx5yyoJNOz1kAz7lD980DCbyx4GosL1/FntQrz3w=
+github.com/CodingSoldier/go-develop-redis-lib v1.0.3/go.mod h1:S6h7AzRuk6CO3OnrqFX1mb4KooSsLyJqSEEfsChGM9o=
+github.com/Jeffail/tunny v0.0.0-20210126093653-0c8d07a59180 h1:o6muybrZei9TRZoi8YIdJIzkv3+LQB2ZsdoP3SPLqaE=
+github.com/Jeffail/tunny v0.0.0-20210126093653-0c8d07a59180/go.mod h1:P8xAx4XQl0xsuhjX1DtfaMDCSuavzdb2rwbd0lk+fvo=
